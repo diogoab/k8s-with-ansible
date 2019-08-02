@@ -1,0 +1,6 @@
+[kubernetes-master-nodes]
+k8s-master ansible_host=10.128.15.204
+
+[kubernetes-worker-nodes]
+k8s-workers-1 ansible_host=10.128.15.205
+k8s-workers-2 ansible_host=10.128.15.206
